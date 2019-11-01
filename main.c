@@ -1,12 +1,8 @@
-//--------------------------------------------------------------------
-// Name:            Derek Brewer & Travis Torres
-// Date:            Spring 2018
-// Purp:            Final Project Room Mapper
-//------------------------------------------------------------------------
+
 #include "mcc_generated_files/mcc.h"
 
 
-uint16_t    convertEchoToCm(uint16_t timerCounts);
+uint16_t convertEchoToCm(uint16_t timerCounts);
 uint16_t echoPulse = 0;
 uint8_t newSample = 1;
 
